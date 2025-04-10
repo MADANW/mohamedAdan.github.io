@@ -19,7 +19,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="skills">
-            <h3>Main Skills</h3>
+            <h3>Main Skills</h3> 
             <div className="skills-grid">
               <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp" className="skill-item">Web Development</a>
               <a href="https://www.python.org/" className="skill-item">Python</a>

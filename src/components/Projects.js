@@ -9,13 +9,13 @@ const Projects = () => {
       title: "Adam-AI Assistant",
       description: "Adam-AI Assistant is a web-based application that leverages OpenAI's GPT-4o model to provide Muslims with AI-driven chat support, personalized daily planning, and Islamic utilities like prayer time integration, built using Next.js, TypeScript, and Tailwind CSS.",
       imageUrl: "/commingsoon.jpg",
-      repoUrl: "https://github.com/MADANW/stock-predictor.git"
+      repoUrl: "#"
     },
     {
       title: "Stock Predictor",
       description: "In Progress",
       imageUrl: "/commingsoon.jpg",
-      repoUrl: "#"
+      repoUrl: "https://github.com/MADANW/stock-predictor.git"
     },
     {
       title: "Data analysis project",

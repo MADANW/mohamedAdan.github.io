@@ -6,19 +6,19 @@ const Projects = () => {
   // Sample project data - replace with your actual projects later
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of project 1. This is a placeholder that you can replace with your actual project details.",
-      imageUrl: null
+      title: "Adam-AI Assistant",
+      description: "Adam-AI Assistant is a web-based application that leverages OpenAI's GPT-4o model to provide Muslims with AI-driven chat support, personalized daily planning, and Islamic utilities like prayer time integration, built using Next.js, TypeScript, and Tailwind CSS.",
+      imageUrl: "/commingsoon.png"
     },
     {
-      title: "Project 2",
-      description: "A brief description of project 2. This is a placeholder that you can replace with your actual project details.",
-      imageUrl: null
+      title: "Stock Predictor",
+      description: "In Progress",
+      imageUrl: "/commingsoon.png"
     },
     {
-      title: "Project 3",
-      description: "A brief description of project 3. This is a placeholder that you can replace with your actual project details.",
-      imageUrl: null
+      title: "Coming Soon",
+      description: "Coming Soon",
+      imageUrl: "/commingsoon.png"
     }
   ];
 

@@ -6,7 +6,7 @@ const ProjectItem = ({ title, description, imageUrl }) => {
     <div className="project-item">
       <div className="project-image">
         {imageUrl ? (
-          <img src={imageUrl} alt={title} />
+          <img src={process.env.PUBLIC_URL + imageUrl} alt={title} />
         ) : (
           <div className="placeholder-image">
             <span>Project Image</span>

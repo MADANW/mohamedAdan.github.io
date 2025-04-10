@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ProjectItem.css';
 
 const ProjectItem = ({ title, description, imageUrl }) => {
+  const [imageError, setImageError] = useState(false);
+
   return (
     <div className="project-item">
       <div className="project-image">
-        {imageUrl ? (
-          <img src={process.env.PUBLIC_URL + imageUrl} alt={title} />
+        {imageUrl && !imageError ? (
+          <img 
+            src={process.env.PUBLIC_URL + imageUrl} 
+            alt={title} 
+            onError={() => setImageError(true)}
+          />
         ) : (
           <div className="placeholder-image">
             <span>Project Image</span>

@@ -35,7 +35,7 @@ This portfolio website is designed to display my work and projects. With a focus
 My recommended file structure for the project:
 
 ```
-portfolio-website/
+portfolio/
 ├── public/
 │   └── index.html
 ├── src/
@@ -58,7 +58,7 @@ portfolio-website/
 
 You can visit my portfolio website at:
 
-["https://madanw.github.io/mohamedAdan.github.io/"]("https://madanw.github.io/mohamedAdan.github.io/")
+[https://madanw.github.io/portfolio/](https://madanw.github.io/portfolio/)
 
 ## Contributing
 

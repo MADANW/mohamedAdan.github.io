@@ -1,4 +1,4 @@
-# Mohamed Adan Portfolio Website
+# Madanw Portfolio Website
 
 A modern, responsive portfolio website built with React, JavaScript, and CSS. This project serves as my personal platform for showcasing my projects and experiences as a sophomore at the University of Minnesota. The design features a sleek gradient background (starting at `#0c340c` and transitioning to white) paired with a clean, minimalist layout.
 
@@ -14,7 +14,7 @@ A modern, responsive portfolio website built with React, JavaScript, and CSS. Th
 
 ## Overview
 
-This portfolio website is designed to display my work and projects. With a focus on modern design principles, the site features a consistent color scheme, responsive layout, and intuitive navigation. It includes a header with my name ("Mohamed Adan"), a section dedicated to project details with placeholders for three projects, and additional sections that I can customize further as my portfolio grows.
+This portfolio website is designed to display my work and projects. With a focus on modern design principles, the site features a consistent color scheme, responsive layout, and intuitive navigation. It includes a header with my name ("Madanw"), a section dedicated to project details with placeholders for three projects, and additional sections that I can customize further as my portfolio grows.
 
 ## Features
 

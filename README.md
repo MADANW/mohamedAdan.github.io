@@ -8,8 +8,7 @@ A modern, responsive portfolio website built with React, JavaScript, and CSS. Th
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Visit My Portfolio](#visit-my-portfolio)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -55,51 +54,11 @@ portfolio-website/
 - **`ProjectItem.js`**: Component for individual project details.
 - **`styles.css`**: Contains global styles including the gradient background and component-specific styles.
 
-## Installation
+## Visit My Portfolio
 
-To set up my project locally, follow these steps:
+You can visit my portfolio website at:
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/mohamedadan/portfolio-website.git
-   cd portfolio-website
-   ```
-
-2. **Install dependencies:**
-
-   If using npm:
-   ```bash
-   npm install
-   ```
-   Or if using yarn:
-   ```bash
-   yarn install
-   ```
-
-## Usage
-
-To run the development server:
-
-```bash
-npm start
-```
-or
-```bash
-yarn start
-```
-
-This will start the React development server, and you can view my website in your browser at [http://localhost:3000](http://localhost:3000).
-
-For a production build, run:
-
-```bash
-npm run build
-```
-or
-```bash
-yarn build
-```
+["https://madanw.github.io/mohamedAdan.github.io/"]("https://madanw.github.io/mohamedAdan.github.io/")
 
 ## Contributing
 

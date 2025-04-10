@@ -1,6 +1,6 @@
 .projects {
   padding: 4rem 0;
-  background: white;
+  background: transparent;
 }
 
 .projects-container {
@@ -11,9 +11,11 @@
 
 .projects h2 {
   text-align: center;
-  color: #333;
+  color: var(--text-color);
   margin-bottom: 2rem;
   font-size: 2rem;
+  font-family: var(--typewriter-font-alt);
+  letter-spacing: 2px;
 }
 
 .projects-grid {

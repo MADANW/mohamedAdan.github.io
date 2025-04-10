@@ -8,17 +8,20 @@ const Projects = () => {
     {
       title: "Adam-AI Assistant",
       description: "Adam-AI Assistant is a web-based application that leverages OpenAI's GPT-4o model to provide Muslims with AI-driven chat support, personalized daily planning, and Islamic utilities like prayer time integration, built using Next.js, TypeScript, and Tailwind CSS.",
-      imageUrl: "/commingsoon.jpg"
+      imageUrl: "/commingsoon.jpg",
+      repoUrl: "https://github.com/MADANW/stock-predictor.git"
     },
     {
       title: "Stock Predictor",
       description: "In Progress",
-      imageUrl: "/commingsoon.jpg"
+      imageUrl: "/commingsoon.jpg",
+      repoUrl: "#"
     },
     {
-      title: "Coming Soon",
+      title: "Data analysis project",
       description: "Coming Soon",
-      imageUrl: "/commingsoon.jpg"
+      imageUrl: "/commingsoon.jpg",
+      repoUrl: "#"
     }
   ];
 
@@ -33,6 +36,7 @@ const Projects = () => {
               title={project.title}
               description={project.description}
               imageUrl={project.imageUrl}
+              repoUrl={project.repoUrl}
             />
           ))}
         </div>

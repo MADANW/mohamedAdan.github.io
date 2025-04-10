@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './ProjectItem.css';
 
-const ProjectItem = ({ title, description, imageUrl }) => {
+const ProjectItem = ({ title, description, imageUrl, repoUrl = "#" }) => {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <div className="project-item">
+    <a href={repoUrl} className="project-item" target="_blank" rel="noopener noreferrer">
       <div className="project-image">
         {imageUrl && !imageError ? (
           <img 
@@ -23,7 +23,7 @@ const ProjectItem = ({ title, description, imageUrl }) => {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
+    </a>
   );
 };
 

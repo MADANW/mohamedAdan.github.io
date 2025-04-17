@@ -13,13 +13,13 @@ const Projects = () => {
     },
     {
       title: "Stock Predictor",
-      description: "In Progress",
+      description: "A local‑LLM‑powered stock market trend analyzer that ingests historical and real‑time data to generate clear buy, hold, and sell recommendations—backtested and refined using a funded futures account.",
       imageUrl: "/commingsoon.jpg",
       repoUrl: "#"
     },
     {
       title: "Data analysis project",
-      description: "Coming Soon",
+      description: "A data‑driven analysis of a new SaaS feature’s user journey—mapping the activation funnel, predicting 30‑day churn, and surfacing actionable product recommendations to boost feature adoption and long‑term retention.",
       imageUrl: "/commingsoon.jpg",
       repoUrl: "#"
     }

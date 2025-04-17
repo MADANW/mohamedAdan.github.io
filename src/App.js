@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import RetroGrid from './components/RetroGrid';
 import './App.css';
 
 function App() {
@@ -22,6 +24,13 @@ function App() {
 
   return (
     <div className="App">
+      <RetroGrid 
+        cellSize={60} 
+        opacity={0.8} 
+        angle={65}
+        lightLineColor="rgba(0, 0, 0, 0.75)"
+        darkLineColor="rgba(255, 255, 255, 0.75)"
+      />
       <div 
         className="scroll-indicator" 
         style={{ width: `${(scrollPosition / (document.documentElement.scrollHeight - window.innerHeight)) * 100}%` }}
@@ -29,6 +38,7 @@ function App() {
       <Header />
       <main>
         <AboutMe />
+        <Skills />
         <Projects />
       </main>
       <Footer />

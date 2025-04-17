@@ -7,6 +7,7 @@
 :root {
   /* Light mode variables */
   --bg-color: #ffffff;
+  --bg-color-rgb: 255, 255, 255;
   --text-color: #000000;
   --primary-color: #000000;
   --secondary-color: #333333;
@@ -16,12 +17,15 @@
   --card-hover: rgba(0, 0, 0, 0.1);
   --typewriter-font: 'Share Tech Mono', monospace;
   --typewriter-font-alt: 'VT323', monospace;
+  --duration: 40s;
+  --gap: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* Dark mode variables */
     --bg-color: #000000;
+    --bg-color-rgb: 0, 0, 0;
     --text-color: #ffffff;
     --primary-color: #ffffff;
     --secondary-color: #cccccc;
@@ -39,9 +43,10 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   min-height: 100vh;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   letter-spacing: 0.5px;
   transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 .App {
@@ -49,6 +54,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
+  z-index: 1;
+  background-color: transparent;
 }
 
 .scroll-indicator {
@@ -64,7 +71,15 @@ body {
 main {
   flex: 1;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header, main, footer {
+  position: relative;
+  z-index: 5;
+  background-color: transparent;
 }
 
 .App-logo {
@@ -80,7 +95,7 @@ main {
 }
 
 .App-header {
-  background-color: var(--bg-color);
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,5 +115,49 @@ main {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Marquee Animation Styles */
+.marquee-container {
+  gap: var(--gap);
+  overflow: hidden;
+}
+
+.marquee-content {
+  gap: var(--gap);
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.pause-on-hover:hover {
+  animation-play-state: paused;
+}
+
+.reverse-animation {
+  animation-direction: reverse;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
   }
 }

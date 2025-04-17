@@ -25,6 +25,13 @@
   letter-spacing: 2px;
 }
 
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-color);
+  line-height: 1.8;
+}
+
 .about-me p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
@@ -42,12 +49,30 @@
   color: var(--accent-color);
 }
 
+.about-container {
+  width: 100%;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
 .skills {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 2rem;
-  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skills h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: var(--typewriter-font-alt);
+  letter-spacing: 1px;
 }
 
 .skill-item {
@@ -62,12 +87,15 @@
   font-family: var(--typewriter-font);
   letter-spacing: 1px;
   border: 1px solid var(--border-color);
+  margin: 0 0.5rem;
+  white-space: nowrap;
 }
 
 .skill-item:hover {
   background: var(--card-hover);
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
@@ -81,6 +109,11 @@
 
   .about-me p {
     font-size: 1.1rem;
+  }
+  
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   .skill-item {

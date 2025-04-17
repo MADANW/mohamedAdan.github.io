@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Stock Predictor",
       description: "In Progress",
       imageUrl: "/commingsoon.jpg",
-      repoUrl: "https://github.com/MADANW/stock-predictor.git"
+      repoUrl: "#"
     },
     {
       title: "Data analysis project",

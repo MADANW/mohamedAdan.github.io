@@ -16,7 +16,7 @@ const Header = () => {
             Mohamed Adan
           </HyperText>
         </div>
-        <p className="status">Software Developer</p>
+        <p className="status">Software Developer and Data Analyst</p>
       </div>
     </header>
   );

@@ -6,10 +6,10 @@ const Projects = () => {
   // Sample project data - replace with your actual projects later
   const projects = [
     {
-      title: "AI Assistant (out soon)",
+      title: "MuhsinAI",
       description: "A web-based application that provide Muslims with AI-driven chat support, personalized daily planning, and Islamic utilities like prayer time integration.",
       imageUrl: "/commingsoon.jpg",
-      repoUrl: "#"
+      repoUrl: "https://github.com/MADANW/MuhsinAI"
     },
     {
       title: "FullStack Web App Template",

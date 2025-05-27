@@ -15,13 +15,13 @@ const Projects = () => {
       title: "Algorithmic Trading bot",
       description: "An algorithmic trading bot that uses machine learning to make trading decisions",
       imageUrl: "/webtemplate.png",
-      repoUrl: "https://github.com/MADANW/fullstackWebAppTemplate"
+      repoUrl: "https://github.com/MADANW/stock-predictor"
     },
     {
       title: "Credit Risk & Spending Trends Dashboard",
       description: "A financial intelligence report for consumer behavior analysis and loan risk prediction",
-      imageUrl: "/commingsoon.jpg",
-      repoUrl: "#"
+      imageUrl: "/dashboard.png",
+      repoUrl: "https://github.com/MADANW/credit-risk-dashboard"
     }
   ];
 

@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript)
 ![CSS3](https://img.shields.io/badge/CSS3-Modern-1572B6?style=for-the-badge&logo=css3)
 
-**A modern, interactive portfolio website showcasing my journey as a Software Developer and Data Analyst**
+**A terminal-inspired developer portfolio with unique monospace aesthetic and interactive animations**
 
 [🌐 **Live Demo**](https://madanw.github.io/portfolio/) • [📋 **Features**](#-features) • [🛠️ **Tech Stack**](#️-tech-stack) • [🚀 **Quick Start**](#-quick-start)
 
@@ -17,23 +17,25 @@
 
 ## 📖 About
 
-This portfolio website represents my professional journey and technical expertise as a Software Developer and Data Analyst. Built with modern web technologies, it features a retro-tech aesthetic with smooth animations, interactive components, and a responsive design that works seamlessly across all devices.
+This portfolio website showcases my journey as a Software Developer and Data Analyst through a unique **terminal-inspired design**. Built with modern web technologies, it features a distinctive developer aesthetic using monospace fonts, terminal commands, and retro-tech elements that immediately communicate my passion for code and technology.
 
 ### 🎯 Purpose
-- **Showcase Projects**: Display my technical projects with detailed descriptions and live demos
-- **Professional Presence**: Establish a strong online presence for career opportunities
-- **Technical Demonstration**: Showcase my skills in React, JavaScript, CSS, and modern web development
-- **User Experience**: Provide an engaging, accessible experience for visitors
+- **Developer Identity**: Express my passion for code through terminal-inspired design language
+- **Showcase Projects**: Display technical projects with file-like naming and command-line aesthetics
+- **Professional Presence**: Stand out with a unique, memorable developer portfolio
+- **Technical Demonstration**: Showcase skills in React, JavaScript, CSS, and modern web development
+- **User Experience**: Provide an engaging, developer-friendly experience that resonates with tech professionals
 
 ---
 
 ## ✨ Features
 
 ### 🎨 **Visual & Interactive**
+- **Terminal Aesthetic**: Monospace fonts (VT323, Share Tech Mono) with command-line styling
+- **Developer Theming**: File extensions, terminal commands, and code-like syntax throughout
 - **Retro Grid Background**: Dynamic CSS-based grid with perspective effects
-- **HyperText Animation**: Scrambling text effect with customizable triggers
-- **Smooth Scrolling**: Parallax effects and scroll-triggered animations
-- **Hover Effects**: Interactive project cards with overlay transitions
+- **HyperText Animation**: Scrambling text effect with blinking cursor
+- **Card-Based Layout**: Modern sections with hover effects and clean typography
 - **Responsive Design**: Mobile-first approach with adaptive layouts
 
 ### 🔧 **Technical**
@@ -152,51 +154,98 @@ portfolio-web/
 
 ### **Color Palette**
 ```css
-/* Light Mode */
+/* Monochrome Terminal Theme */
 --bg-color: #ffffff
 --text-color: #000000
 --primary-color: #000000
 --accent-color: #666666
+--border-color: #e0e0e0
+--hover-color: #f5f5f5
 
-/* Dark Mode */
---bg-color: #000000
---text-color: #ffffff
---primary-color: #ffffff
---accent-color: #999999
+/* Clean, minimal palette emphasizing content over color */
 ```
 
 ### **Typography**
-- **Primary Font**: Share Tech Mono (Monospace)
-- **Secondary Font**: VT323 (Display)
+- **Primary Font**: Share Tech Mono (Monospace) - Body text and content
+- **Secondary Font**: VT323 (Display) - Headers and terminal commands
+- **Design Philosophy**: Full monospace aesthetic for authentic developer feel
 - **Font Loading**: Google Fonts with preconnect optimization
 
 ### **Animations**
-- **Scroll Indicators**: Real-time scroll progress
-- **Hover Effects**: Smooth transitions and transforms
-- **Text Effects**: Character scrambling and typing animations
-- **Background**: Animated retro grid with perspective
+- **Terminal Effects**: Blinking cursor animation and command-line styling
+- **Hover Effects**: Smooth transitions on cards and interactive elements
+- **Text Effects**: Character scrambling with HyperText component
+- **Background**: Animated retro grid with perspective effects
+- **Skill Marquee**: Scrolling file-like skill names
 
 ---
 
-## 🌟 Featured Projects
+## 💻 Unique Design Features
 
-### 1. **MuhsinAI** 🤖
-AI-driven chat support platform for Muslims with Islamic utilities and prayer time integration.
-- **Tech**: Python, TensorFlow, React, API Integration
-- **Features**: AI Chat, Prayer Times, Islamic Calendar
-- **Status**: Active Development
+### **Terminal-Inspired Elements**
+- **Header**: `$ whoami: Software Developer && Data Analyst` with blinking cursor
+- **About Sections**: Terminal commands like `$ cat skills.txt`, `$ echo $MISSION`
+- **Skills Display**: File-like naming (AI_ML_Engineer.py, FullStack_Developer.js)
+- **Interests**: File extensions (traveling.exe, tech_exploration.sh)
+- **Command Syntax**: Throughout the site using `$`, `>`, `&&`, `|` operators
 
-### 2. **FullStack Web App Template** 🏗️
-TypeScript-based starter template with built-in authentication and monorepo structure.
-- **Tech**: TypeScript, React, Node.js, Authentication
-- **Features**: Auth System, Monorepo, Development Tools
-- **Status**: Production Ready
+### **Developer Aesthetic**
+- **Monospace Typography**: VT323 and Share Tech Mono for authentic code feel
+- **Card-Based Layout**: Clean, scannable sections replacing wall-of-text
+- **File System Metaphors**: Skills and interests presented as files and scripts
+- **Terminal Prompts**: Interactive elements styled as command-line interfaces
 
-### 3. **Tesla Stock Business Dashboard** 📊
-Comprehensive business intelligence dashboard for Tesla stock analysis.
-- **Tech**: Python, Data Analysis, Visualization
-- **Features**: Real-time Data, Analytics, Reporting
-- **Status**: In Development
+### **Modern UX Principles**
+- **Visual Hierarchy**: Clear information architecture with proper spacing
+- **Hover Interactions**: Subtle animations that enhance user engagement
+- **Responsive Design**: Seamless experience across all device sizes
+- **Accessibility**: Semantic HTML and proper contrast ratios
+
+---
+
+## 💻 Featured Projects
+
+```bash
+$ ls ~/projects/
+```
+
+### `./muhsinai.py` 🤖
+```bash
+$ cat muhsinai.py
+# Web-based application providing Muslims with AI-driven chat support
+# Personalized daily planning and Islamic utilities integration
+```
+- **Stack**: `Python | AI/ML | React | Prayer_API`
+- **Features**: `AI_Chat.py`, `Daily_Planning.js`, `Prayer_Times.json`
+- **Status**: `Active_Development.status`
+- **Demo**: [Repository →](https://github.com/MADANW/MuhsinAI)
+
+### `./trading-bot.py` 📈
+```bash
+$ cat trading-bot.py
+# Algorithmic trading bot using machine learning
+# Automated trading decisions with ML algorithms
+```
+- **Stack**: `Python | Machine_Learning | Trading_APIs | Data_Analysis`
+- **Features**: `ML_Models.py`, `Trading_Logic.js`, `Risk_Management.py`
+- **Status**: `Production_Ready.status`
+- **Demo**: [Repository →](https://github.com/MADANW/fullstackWebAppTemplate)
+
+### `./financial-dashboard.sql` 💳
+```bash
+$ cat financial-dashboard.sql
+# Credit risk and spending trends dashboard
+# Consumer behavior analysis and loan risk prediction
+```
+- **Stack**: `Python | SQL | Data_Visualization | Risk_Analysis`
+- **Features**: `Credit_Risk.py`, `Spending_Analysis.sql`, `Predictions.js`
+- **Status**: `In_Development.status`
+- **Demo**: [Coming Soon →](#)
+
+```bash
+$ echo "More projects in development..." && sleep 1
+$ git log --oneline | head -3
+```
 
 ---
 

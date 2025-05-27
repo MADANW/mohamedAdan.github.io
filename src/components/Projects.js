@@ -12,14 +12,14 @@ const Projects = () => {
       repoUrl: "https://github.com/MADANW/MuhsinAI"
     },
     {
-      title: "FullStack Web App Template",
-      description: "A lean, TypeScript-based starter for full-stack apps. Monorepo structure, built-in auth, and conventions to streamline development.",
+      title: "Algorithmic Trading bot",
+      description: "An algorithmic trading bot that uses machine learning to make trading decisions",
       imageUrl: "/webtemplate.png",
       repoUrl: "https://github.com/MADANW/fullstackWebAppTemplate"
     },
     {
-      title: "Tesla Stock Business Dashboard",
-      description: "idk yet",
+      title: "Credit Risk & Spending Trends Dashboard",
+      description: "A financial intelligence report for consumer behavior analysis and loan risk prediction",
       imageUrl: "/commingsoon.jpg",
       repoUrl: "#"
     }

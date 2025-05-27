@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: "MuhsinAI",
       description: "A web-based application that provide Muslims with AI-driven chat support, personalized daily planning, and Islamic utilities like prayer time integration.",
-      imageUrl: "/commingsoon.jpg",
+      imageUrl: "/muhsinai.png",
       repoUrl: "https://github.com/MADANW/MuhsinAI"
     },
     {

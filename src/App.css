@@ -10,15 +10,20 @@
   --bg-color-rgb: 255, 255, 255;
   --text-color: #000000;
   --primary-color: #000000;
-  --secondary-color: #333333;
-  --accent-color: #666666;
-  --border-color: rgba(0, 0, 0, 0.2);
-  --card-bg: rgba(0, 0, 0, 0.05);
-  --card-hover: rgba(0, 0, 0, 0.1);
+  --secondary-color: #666666;
+  --accent-color: #333333;
+  --border-color: rgba(0, 0, 0, 0.15);
+  --card-bg: rgba(0, 0, 0, 0.02);
+  --card-hover: rgba(0, 0, 0, 0.05);
+  --section-bg: #fafafa;
   --typewriter-font: 'Share Tech Mono', monospace;
   --typewriter-font-alt: 'VT323', monospace;
+  --body-font: 'Share Tech Mono', 'Courier New', monospace;
+  --heading-font: 'VT323', 'Share Tech Mono', monospace;
   --duration: 40s;
   --gap: 1rem;
+  --section-padding: 5rem 2rem;
+  --container-max-width: 1200px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,23 +35,25 @@
     --primary-color: #ffffff;
     --secondary-color: #cccccc;
     --accent-color: #999999;
-    --border-color: rgba(255, 255, 255, 0.2);
-    --card-bg: rgba(255, 255, 255, 0.05);
-    --card-hover: rgba(255, 255, 255, 0.1);
+    --border-color: rgba(255, 255, 255, 0.15);
+    --card-bg: rgba(255, 255, 255, 0.02);
+    --card-hover: rgba(255, 255, 255, 0.05);
+    --section-bg: #0a0a0a;
   }
 }
 
 body {
-  font-family: var(--typewriter-font);
+  font-family: var(--body-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   color: var(--text-color);
   min-height: 100vh;
   background-color: var(--bg-color);
-  letter-spacing: 0.5px;
   transition: background-color 0.3s ease, color 0.3s ease;
   overflow-x: hidden;
+  font-size: 15px;
+  letter-spacing: 0.5px;
 }
 
 .App {
@@ -63,7 +70,7 @@ body {
   top: 0;
   left: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  background: var(--primary-color);
   z-index: 1000;
   transition: width 0.1s ease;
 }
@@ -74,6 +81,52 @@ main {
   z-index: 2;
   max-width: 100%;
   overflow-x: hidden;
+}
+
+/* Section styling */
+section {
+  padding: var(--section-padding);
+  position: relative;
+}
+
+section:nth-child(even) {
+  background-color: var(--section-bg);
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 2.5rem; }
+h4 { font-size: 2rem; }
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.5rem; }
+  
+  body {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  
+  section {
+    padding: 3rem 1rem;
+  }
 }
 
 header, main, footer {

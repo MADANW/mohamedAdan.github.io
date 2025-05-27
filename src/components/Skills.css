@@ -1,28 +1,18 @@
 .skills-section {
-  padding: 4rem 2rem;
-  max-width: 1200px;
+  padding: 0;
+  max-width: var(--container-max-width);
   margin: 0 auto;
   position: relative;
-}
-
-.skills-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 3px;
-  background: linear-gradient(90deg, transparent, var(--text-color), transparent);
+  background: transparent !important;
 }
 
 .skills-section h2 {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: var(--text-color);
   text-align: center;
-  font-family: var(--typewriter-font-alt);
-  letter-spacing: 2px;
+  font-family: var(--heading-font);
+  font-weight: 600;
 }
 
 .skills-container {
@@ -41,17 +31,17 @@
 
 .skill-item {
   background: var(--card-bg);
-  padding: 0.4rem 0.8rem;
-  border-radius: 12px;
-  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
   color: var(--text-color);
   transition: all 0.25s ease;
   cursor: pointer;
   text-decoration: none;
-  font-family: var(--typewriter-font);
-  letter-spacing: 0.5px;
+  font-family: var(--body-font);
+  font-weight: 500;
   border: 1px solid var(--border-color);
-  margin: 0 0.1rem;
+  margin: 0 0.25rem;
   white-space: nowrap;
   display: inline-block;
 }

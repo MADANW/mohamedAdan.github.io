@@ -309,7 +309,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-madanw.github.io-000000?style=for-the-badge&logo=github)](https://madanw.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/mohamed-adan-0536a4259)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/mohamed-adan-0536a4259](https://www.linkedin.com/in/mohamed-a-0536a4259/))
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/MADANW)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:adan.mohamed.w@gmail.com)
 
